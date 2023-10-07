@@ -20,8 +20,9 @@ export default function ServicesPage() {
             <h5 className={`text-lg sm:text-xl`}>
               Search Engine Optimization (SEO)
             </h5>
-            Boost your website's visibility and credibility. We optimize your
-            online presence, driving organic traffic and maximizing conversions.
+            Boost your website&apos;s visibility and credibility. We optimize
+            your online presence, driving organic traffic and maximizing
+            conversions.
           </div>
         </li>
         <li className={`px-4 py-3 rounded-md border bg-white`}>
@@ -29,8 +30,9 @@ export default function ServicesPage() {
             <h5 className={`text-lg sm:text-xl`}>
               Social Media Marketing (SMM)
             </h5>
-            Elevate your brand's voice on social platforms. We craft engaging
-            content, foster community, and increase customer interactions.
+            Elevate your brand&apos;s voice on social platforms. We craft
+            engaging content, foster community, and increase customer
+            interactions.
           </div>
         </li>
         <li className={`px-4 py-3 rounded-md border bg-white`}>
