@@ -40,11 +40,15 @@ const Navbar: React.FC<NavbarProps> = ({
 }) => {
   return (
     <nav
-      className={`flex flex-col bg-slate-100 px-8 py-6 gap-4 border-b border-b-slate-400`}
+      className={`flex sticky top-0 left-0 flex-col bg-slate-100 px-8 py-6 gap-4 border-b border-b-slate-400`}
     >
-      <h1 className={`text-2xl font-semibold`}>{title}</h1>
+      <Link href={`/`} className={`text-2xl font-semibold`}>
+        {title}
+      </Link>
       <hr className={`border-slate-950`} />
-      <ul className={`flex justify-around items-center gap-4 text-xl`}>
+      <ul
+        className={`flex flex-wrap justify-around items-center gap-4 text-xl`}
+      >
         {links.map((link) => (
           <li key={link.url}>
             <Link
