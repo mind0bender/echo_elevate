@@ -26,7 +26,7 @@ export default function ContactPage() {
             </thead>
             <tbody>
               <tr
-                className={`flex flex-col sm:table-row divide-none sm:divide-x divide-slate-400 pt-2`}
+                className={`flex flex-col sm:table-row divide-x-none sm:divide-x divide-slate-400 pt-2`}
               >
                 <td>Email</td>
                 <td className={`px-4 py-2`}>
@@ -34,7 +34,7 @@ export default function ContactPage() {
                 </td>
               </tr>
               <tr
-                className={`flex flex-col sm:table-row divide-none sm:divide-x divide-slate-400`}
+                className={`flex flex-col sm:table-row divide-x-none sm:divide-x divide-slate-400`}
               >
                 <td>Phone</td>
                 <td className={`px-4 py-2`}>
@@ -42,7 +42,7 @@ export default function ContactPage() {
                 </td>
               </tr>
               <tr
-                className={`flex flex-col sm:table-row divide-none sm:divide-x divide-slate-400`}
+                className={`flex flex-col sm:table-row divide-x-none sm:divide-x divide-slate-400`}
               >
                 <td>Address</td>
                 <td className={`px-4 py-2`}>

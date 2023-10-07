@@ -5,7 +5,7 @@ export default function AboutPage(): JSX.Element {
     >
       <h4 className={`text-2xl sm:text-3xl font-medium`}>About Echo Elevate</h4>
 
-      <div className={`max-w-3xl flex flex-col gap-2`}>
+      <div className={`max-w-2xl text-center flex flex-col gap-2`}>
         <p className={`sm:text-lg px-2`}>
           Welcome to Echo Elevate, where innovation meets expertise. With a
           fervent dedication to digital excellence, we specialize in

@@ -4,7 +4,7 @@ import Button from "../components/button";
 export default function ServicesPage(): JSX.Element {
   return (
     <div
-      className={`grow px-6 sm:px-8 md:px-10 py-10 sm:py-16 md:py-20 flex flex-col justify-center items-center gap-10`}
+      className={`grow px-6 sm:px-8 md:px-10 py-10 sm:py-16 md:py-20 flex flex-col justify-around items-center gap-10`}
     >
       <h4 className={`font-medium text-2xl sm:text-3xl text-center`}>
         Our Digital Servises
