@@ -1,9 +1,10 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Sofia_Sans } from "next/font/google";
 import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Sofia_Sans({ subsets: ["latin"], weight: ["400", "200", "700"] });
 
 export const metadata: Metadata = {
   title: "Echo Elevate",
@@ -19,10 +20,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`relative flex flex-col min-h-screen w-full text-slate-950 bg-slate-50 ${inter.className}`}
+        className={`relative flex flex-col min-h-screen w-full bg-secondary-50 text-slate-950 ${inter.className}`}
       >
         <Navbar />
         <main className={`flex grow w-full`}>{children}</main>
+        <Footer />
       </body>
     </html>
   );

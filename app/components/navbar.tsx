@@ -11,7 +11,7 @@ interface NavbarLink {
   url: string;
 }
 
-const navbarLinks: NavbarLink[] = [
+export const navbarLinks: NavbarLink[] = [
   {
     name: "Home",
     url: "/",
@@ -32,6 +32,10 @@ const navbarLinks: NavbarLink[] = [
     name: "Contact",
     url: "/contact",
   },
+  {
+    name: "FAQs",
+    url: "/faqs",
+  },
 ];
 
 const Navbar: React.FC<NavbarProps> = ({
@@ -40,19 +44,19 @@ const Navbar: React.FC<NavbarProps> = ({
 }) => {
   return (
     <nav
-      className={`flex sticky top-0 left-0 flex-col bg-slate-100 px-8 py-6 gap-4 border-b border-b-slate-400`}
+      className={`flex sticky top-0 flex-col bg-primary-300 px-8 py-6 gap-4 border-b border-b-slate-400`}
     >
       <Link href={`/`} className={`text-2xl font-semibold`}>
         {title}
       </Link>
       <hr className={`border-slate-950`} />
       <ul
-        className={`flex flex-wrap justify-around items-center gap-4 text-xl`}
+        className={`flex flex-wrap justify-center items-center divide-x divide-slate-950 text-xl`}
       >
         {links.map((link) => (
-          <li key={link.url}>
+          <li className={`grow text-center`} key={link.url}>
             <Link
-              className={`text-slate-700 hover:text-slate-950`}
+              className={`hover:bg-primary-200 rounded-md px-4 py-2 text-slate-700 hover:text-slate-950`}
               href={link.url}
             >
               {link.name}

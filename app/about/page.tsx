@@ -1,9 +1,11 @@
 export default function AboutPage(): JSX.Element {
   return (
     <div
-      className={`grow px-6 sm:px-8 md:px-10 py-10 sm:py-16 md:py-20 flex flex-col justify-center items-center gap-10`}
+      className={`grow px-6 sm:px-8 md:px-10 py-10 sm:py-16 md:py-20 flex flex-col justify-around items-center gap-10`}
     >
-      <h4 className={`text-2xl sm:text-3xl font-medium`}>About Echo Elevate</h4>
+      <h4 className={`text-2xl sm:text-3xl font-medium text-center`}>
+        About Echo Elevate
+      </h4>
 
       <div className={`max-w-2xl text-center flex flex-col gap-2`}>
         <p className={`sm:text-lg px-2`}>
