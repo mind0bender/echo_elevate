@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Button from "../components/button";
 
-export default function ServicesPage() {
+export default function ServicesPage(): JSX.Element {
   return (
     <div
       className={`grow px-6 sm:px-8 md:px-10 py-10 sm:py-16 md:py-20 flex flex-col justify-center items-center gap-10`}
