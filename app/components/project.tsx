@@ -14,7 +14,7 @@ export default function Project({
   return (
     <li className={`px-4 py-3 hover:shadow-md rounded-md border bg-white`}>
       <div className={`flex flex-col justify-center gap-2`}>
-        <Image {...image} className={`rounded-md`} />
+        <Image draggable={false} {...image} className={`rounded-md`} />
         <h4 className={`text-xl sm:text-2xl`}>{title}</h4>
         <p>{description}</p>
       </div>

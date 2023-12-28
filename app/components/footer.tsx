@@ -4,9 +4,9 @@ import { navbarLinks } from "./navbar";
 export default function Footer(): JSX.Element {
   return (
     <footer
-      className={`flex justify-between items-center text-lg bg-primary-300 px-4 py-3`}
+      className={`flex justify-between items-center border-t border-slate-500 text-lg bg-primary-300 px-4 py-3`}
     >
-      <Link href={`/`} className={`text-2xl font-semibold`}>
+      <Link href={`/`} className={`text-xl font-medium`}>
         Echo Elevate
       </Link>
       <ul className={`flex flex-wrap justify-around items-center text-base`}>

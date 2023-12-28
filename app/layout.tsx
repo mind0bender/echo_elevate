@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`relative flex flex-col min-h-screen w-full bg-secondary-50 text-slate-950 ${inter.className}`}
+        className={`relative flex flex-col min-h-screen w-full bg-secondary-50 text-slate-950 selection:bg-primary-300 select-text selection:bg-opacity-50 ${inter.className}`}
       >
         <Navbar />
         <main className={`flex grow w-full`}>{children}</main>

@@ -33,6 +33,8 @@ export default function Home(): JSX.Element {
       <div className={`rounded-md ring-blue-200 ring8`}>
         <div className={`rounded-md ring-blue-300 ring4`}>
           <Image
+            priority
+            draggable={false}
             className={`rounded-md ring-blue-400 ring2`}
             src={HeroImage}
             alt="Online"

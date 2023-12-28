@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ContactForm } from "../components/contact_form";
 
 export default function ContactPage() {
   return (
@@ -52,7 +53,6 @@ export default function ContactPage() {
             </tbody>
           </table>
         </div>
-
         <div className={`max-w-3xl flex flex-col gap-2`}>
           <h4 className={`text-xl sm:text-2xl font-medium`}>Stay Connected:</h4>
           <p className={`sm:text-lg px-2`}>
@@ -60,6 +60,7 @@ export default function ContactPage() {
             @EchoElevate
           </p>
         </div>
+        <ContactForm />
       </div>
     </div>
   );
